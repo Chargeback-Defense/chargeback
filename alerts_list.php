@@ -5,35 +5,34 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Star Admin Free Bootstrap-4 Admin Dashboard Template</title>
+  <title>Äll Customer</title>
   <!-- plugins:css -->
-  <link rel="stylesheet" href="../../vendors/iconfonts/mdi/css/materialdesignicons.min.css">
-  <link rel="stylesheet" href="../../vendors/css/vendor.bundle.base.css">
-  <link rel="stylesheet" href="../../vendors/css/vendor.bundle.addons.css">
+  <link rel="stylesheet" href="vendors/iconfonts/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
+  <link rel="stylesheet" href="vendors/css/vendor.bundle.addons.css">
   <!-- endinject -->
   <!-- plugin css for this page -->
   <!-- End plugin css for this page -->
   <!-- inject:css -->
-  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="css/style.css">
   <!-- endinject -->
-  <link rel="shortcut icon" href="../../images/favicon.png" />
+  <link rel="shortcut icon" href="images/favicon.png" />
 </head>
 
 <body>
   <div class="container-scroller">
-    <!-- partial:partials/_navbar.html -->
+    <!-- partial:../../partials/_navbar.html -->
     <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
-        <a class="navbar-brand brand-logo" href="../../index.html">
-          <img src="../../images/logo.png" alt="Charge Back - Y2 Payment System" />
+        <a class="navbar-brand brand-logo" href="index.html">
+          <img src="images/logo.png" alt="logo" />
         </a>
-        <a class="navbar-brand brand-logo-mini" href="../../index.html">
-          <img src="../../images/mini-logo.png" alt="Charge Back - Y2 Payment System" />
+        <a class="navbar-brand brand-logo-mini" href="index.html">
+          <img src="images/mini-logo.png" alt="logo" />
         </a>
       </div>
-      
+
       <div class="navbar-menu-wrapper d-flex align-items-center">
-        
         <!-- breadcum section start  -->
         <ul class="navbar-nav navbar-nav-left header-links d-none d-md-flex">
           <li class="nav-item">
@@ -43,11 +42,12 @@
            <a href="#" class="nav-link"><i class="mdi mdi-chevron-right"></i></a>
           </li>
           <li class="nav-item active">
-            <a href="#" class="nav-link">Dashboard</a>
+            <a href="#" class="nav-link">Client Names</a>
           </li>
         </ul>
         <!-- breadcum section End  -->
 
+        <!-- abc -->
         <ul class="navbar-nav navbar-nav-right">
           <li class="nav-item dropdown">
             <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
@@ -161,7 +161,7 @@
           </li>
           <li class="nav-item dropdown d-none d-xl-inline-block">
             <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
-              <span class="profile-text">Hello, ChargeBack !</span>
+              <span class="profile-text">Hello, Richard V.Welsh !</span>
               <img class="img-xs rounded-circle" src="images/faces/face1.jpg" alt="Profile image">
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
@@ -200,11 +200,12 @@
     </nav>
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">
-      <!-- partial:partials/_sidebar.html -->
+      <!-- partial:../../partials/_sidebar.html -->
+      
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">
+            <a class="nav-link" href="index.php">
               <i class="menu-icon mdi mdi-shield-half-full"></i>
               <span class="menu-title">Dashboard</span>
             </a>
@@ -218,67 +219,165 @@
             <div class="collapse" id="Clients">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="pages/clients/all_customer.html">Client Names</a>
+                  <a class="nav-link" href="all_customer.php">Client Names</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pages/clients/all_users.html">Sub Users</a>
+                  <a class="nav-link" href="all_users.php">Sub Users</a>
                 </li>
               </ul>
             </div>
           </li>
           <li class="nav-item">
-            <!-- <a class="nav-link" href="pages/forms/basic_elements.html"> -->
-              <a class="nav-link" href="#">
-              <i class="menu-icon mdi mdi-database"></i>
-              <span class="menu-title">CB Defense</span>
+            <a class="nav-link" data-toggle="collapse" href="#Y2payment" aria-expanded="false" aria-controls="ui-basic">
+              <i class="menu-icon mdi mdi-hackernews"></i>
+              <span class="menu-title">Y2payment</span>
+              <i class="menu-arrow"></i>
             </a>
+            <div class="collapse" id="Y2payment">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="multi-collapse" data-target="multi-collapse" href="#group-client" aria-expanded="true" aria-controls="group-client">
+                    <span class="menu-title">Transaction Management</span>
+                    <i class="menu-arrow"></i>
+                  </a>
+                  <div class="multi-collapse" id="group-client">
+                    <ul class="nav flex-column sub-menu">
+                      <li class="nav-item">
+                        <a class="nav-link" href="transaction_maintenance.php">View Transaction</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="create_maintenance.php">Create Transaction</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="archive_transaction.php">Archive Transaction</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="batch_maintenance.php">Batch Management</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="scheduled_payments.php">Scheduled Payments</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="recurring_list.php">Recurring Payments</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="orders_activity.php">Failed Attempt</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="multi-collapse" data-target="multi-collapse" href="#group-client" aria-expanded="true" aria-controls="group-client">
+                    <span class="menu-title">New Apps</span>
+                    <i class="menu-arrow"></i>
+                  </a>
+                  <div class="multi-collapse" id="group-client">
+                    <ul class="nav flex-column sub-menu">
+                      <li class="nav-item">
+                        <a class="nav-link" href="connect_sage_ftp.php">Import App Docs</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </li>
           <li class="nav-item">
-            <!-- <a class="nav-link" href="pages/forms/basic_elements.html"> -->
-            <a class="nav-link" href="pages/forms/basic_elements.html">
+            <a class="nav-link" data-toggle="collapse" href="#CBDefense" aria-expanded="false" aria-controls="ui-basic">
+              <i class="menu-icon mdi mdi-database"></i>
+              <span class="menu-title">CB Defense</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="CBDefense">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="alerts_list.php">Alerts</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="chargebacks_list.php">Chargebacks</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/add_merchant.php">
               <i class="menu-icon mdi mdi-newspaper"></i>
               <span class="menu-title">Add Merchants</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/charts/chartjs.html">
+            <a class="nav-link" href="pages/all_merchant.php">
               <i class="menu-icon mdi mdi-plus-outline"></i>
               <span class="menu-title">All Merchants</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+            <a class="nav-link" data-toggle="collapse" href="#email-template" aria-expanded="false" aria-controls="ui-basic">
               <i class="menu-icon mdi mdi-email-variant"></i>
               <span class="menu-title">Email Template</span>
               <i class="menu-arrow"></i>
             </a>
-            <!-- <div class="collapse" id="ui-basic">
+            <div class="collapse" id="email-template">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a>
+                  <a class="nav-link" href="all_template.php">All Template</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pages/ui-features/typography.html">Typography</a>
+                  <a class="nav-link" href="add_template.php">Create Template</a>
                 </li>
               </ul>
-            </div> -->
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+            <a class="nav-link" data-toggle="collapse" href="#admin-setting" aria-expanded="false" aria-controls="admin-setting">
               <i class="menu-icon mdi mdi-settings"></i>
               <span class="menu-title">Admin Setting</span>
               <i class="menu-arrow"></i>
             </a>
-            <!-- <div class="collapse" id="ui-basic">
+            <div class="collapse" id="admin-setting">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a>
+                  <a class="nav-link" href="general_settings.php">Admin Setting</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pages/ui-features/typography.html">Typography</a>
+                  <a class="nav-link" href="logs.php">Logs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="tsys.php">TSYS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="dashboard_settings.php">Dashboard Setting</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="access_preset.php">UAL Presets</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="tokenization.php">Tokens</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="processor.php">Processors</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="assign_ftp.php">Assign FTP</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="multi-collapse" data-target="multi-collapse" href="#group-client" aria-expanded="true" aria-controls="group-client">
+                    <span class="menu-title">Group Client</span>
+                    <i class="menu-arrow"></i>
+                  </a>
+                  <div class="multi-collapse" id="group-client">
+                    <ul class="nav flex-column sub-menu">
+                      <li class="nav-item">
+                        <a class="nav-link" href="group.php">Create Group</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="group_clients.php">All Grouped Clients</a>
+                      </li>
+                    </ul>
+                  </div>
                 </li>
               </ul>
-            </div> -->
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
@@ -286,85 +385,49 @@
               <span class="menu-title">Reporting</span>
               <i class="menu-arrow"></i>
             </a>
-            <!-- <div class="collapse" id="ui-basic">
+            <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a>
+                  <a class="nav-link" href="reports.php">Transaction Summary</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pages/ui-features/typography.html">Typography</a>
+                  <a class="nav-link" href="reports_detail.php">Transaction Detail</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="dispute_ratio.php">Dispute Ratio</a>
                 </li>
               </ul>
-            </div> -->
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+            <a class="nav-link" data-toggle="collapse" href="#web-forms" aria-expanded="false" aria-controls="web-forms">
               <i class="menu-icon mdi mdi-table-large"></i>
               <span class="menu-title">Web Forms</span>
               <i class="menu-arrow"></i>
             </a>
-            <!-- <div class="collapse" id="ui-basic">
+            <div class="collapse" id="web-forms">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a>
+                  <a class="nav-link" href="create_web_form.php">Create Web Form</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pages/ui-features/typography.html">Typography</a>
-                </li>
-              </ul>
-            </div> -->
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="pages/tables/basic-table.html">
-              <i class="menu-icon mdi mdi-table"></i>
-              <span class="menu-title">Tables</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/icons/font-awesome.html">
-              <i class="menu-icon mdi mdi-sticker"></i>
-              <span class="menu-title">Icons</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
-              <i class="menu-icon mdi mdi-restart"></i>
-              <span class="menu-title">User Pages</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="auth">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item">
-                  <a class="nav-link" href="pages/samples/blank-page.html"> Blank Page </a>
+                  <a class="nav-link" href="web_form_styling.php">Web Form Styling</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pages/samples/login.html"> Login </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pages/samples/register.html"> Register </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pages/samples/error-404.html"> 404 </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pages/samples/error-500.html"> 500 </a>
+                  <a class="nav-link" href="web_form_list.php">Web Form Token</a>
                 </li>
               </ul>
             </div>
-          </li> -->
+          </li>
         </ul>
       </nav>
+      
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">
-         
-
-          
-        
-          
         </div>
         <!-- content-wrapper ends -->
-        <!-- partial:partials/_footer.html -->
+        <!-- partial:../../partials/_footer.html -->
         <footer class="footer">
           <div class="container-fluid clearfix">
             <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2018
@@ -380,7 +443,6 @@
     <!-- page-body-wrapper ends -->
   </div>
   <!-- container-scroller -->
-
   <!-- plugins:js -->
   <script src="vendors/js/vendor.bundle.base.js"></script>
   <script src="vendors/js/vendor.bundle.addons.js"></script>
@@ -392,8 +454,6 @@
   <script src="js/misc.js"></script>
   <!-- endinject -->
   <!-- Custom js for this page-->
-  <script src="js/dashboard.js"></script>
-  <script src="js/chart.js"></script>
   <!-- End custom js for this page-->
 </body>
 

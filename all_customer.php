@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>ChargeBack</title>
+  <title>Äll Customer</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="vendors/iconfonts/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
@@ -21,19 +21,18 @@
 
 <body>
   <div class="container-scroller">
-    <!-- partial:partials/_navbar.html -->
+    <!-- partial:../../partials/_navbar.html -->
     <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
-        <a class="navbar-brand brand-logo" href="index.php">
-          <img src="images/logo.png" alt="Charge Back - Y2 Payment System" />
+        <a class="navbar-brand brand-logo" href="index.html">
+          <img src="images/logo.png" alt="logo" />
         </a>
-        <a class="navbar-brand brand-logo-mini" href="index.php">
-          <img src="images/mini-logo.png" alt="Charge Back - Y2 Payment System" />
+        <a class="navbar-brand brand-logo-mini" href="index.html">
+          <img src="images/mini-logo.png" alt="logo" />
         </a>
       </div>
-      
+
       <div class="navbar-menu-wrapper d-flex align-items-center">
-        
         <!-- breadcum section start  -->
         <ul class="navbar-nav navbar-nav-left header-links d-none d-md-flex">
           <li class="nav-item">
@@ -43,11 +42,12 @@
            <a href="#" class="nav-link"><i class="mdi mdi-chevron-right"></i></a>
           </li>
           <li class="nav-item active">
-            <a href="#" class="nav-link">Dashboard</a>
+            <a href="#" class="nav-link">Client Names</a>
           </li>
         </ul>
         <!-- breadcum section End  -->
 
+        <!-- abc -->
         <ul class="navbar-nav navbar-nav-right">
           <li class="nav-item dropdown">
             <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
@@ -161,7 +161,7 @@
           </li>
           <li class="nav-item dropdown d-none d-xl-inline-block">
             <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
-              <span class="profile-text">Hello, ChargeBack !</span>
+              <span class="profile-text">Hello, Richard V.Welsh !</span>
               <img class="img-xs rounded-circle" src="images/faces/face1.jpg" alt="Profile image">
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
@@ -200,7 +200,8 @@
     </nav>
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">
-      <!-- partial:partials/_sidebar.html -->
+      <!-- partial:../../partials/_sidebar.html -->
+      
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
@@ -299,13 +300,13 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="add_merchant.php">
+            <a class="nav-link" href="007bffadd_merchant.php">
               <i class="menu-icon mdi mdi-newspaper"></i>
               <span class="menu-title">Add Merchants</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="all_merchant.php">
+            <a class="nav-link" href="007bffall_merchant.php">
               <i class="menu-icon mdi mdi-plus-outline"></i>
               <span class="menu-title">All Merchants</span>
             </a>
@@ -420,239 +421,13 @@
           </li>
         </ul>
       </nav>
+      
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">
-          <div class="row">
-
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 grid-margin stretch-card">
-              <div class="card card-statistics">
-                <div class="card-body">
-                  <div class="clearfix">
-                    <div class="float-left">
-                      <i class="mdi mdi-database text-danger icon-lg"></i>
-                    </div>
-                    <div class="float-right">
-                      <p class="mb-0 text-right">Total</p>
-                      <div class="fluid-container">
-                        <h3 class="font-weight-medium text-right mb-0">$65,650</h3>
-                      </div>
-                    </div>
-                  </div>
-                  <p class="text-muted mt-3 mb-0">
-                    <i class="mdi mdi-bookmark-outline mr-1" aria-hidden="true"></i> Sales
-                  </p>
-                </div>
-              </div>
-            </div> <!-- Column 1 -->
-
-
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 grid-margin stretch-card">
-              <div class="card card-statistics">
-                <div class="card-body">
-                  <div class="clearfix">
-                    <div class="float-left">
-                      <i class="mdi mdi-history text-warning icon-lg"></i>
-                    </div>
-                    <div class="float-right">
-                      <p class="mb-0 text-right">Total</p>
-                      <div class="fluid-container">
-                        <h3 class="font-weight-medium text-right mb-0">3455</h3>
-                      </div>
-                    </div>
-                  </div>
-                  <p class="text-muted mt-3 mb-0">
-                    <i class="mdi mdi-bookmark-outline mr-1" aria-hidden="true"></i> Charge Back
-                  </p>
-                </div>
-              </div>
-            </div> <!-- Column 2 -->
-
-
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 grid-margin stretch-card">
-              <div class="card card-statistics">
-                <div class="card-body">
-                  <div class="clearfix">
-                    <div class="float-left">
-                      <i class="mdi mdi-bell text-success icon-lg"></i>
-                    </div>
-                    <div class="float-right">
-                      <p class="mb-0 text-right">Total</p>
-                      <div class="fluid-container">
-                        <h3 class="font-weight-medium text-right mb-0">5693</h3>
-                      </div>
-                    </div>
-                  </div>
-                  <p class="text-muted mt-3 mb-0">
-                    <i class="mdi mdi-bookmark-outline mr-1" aria-hidden="true"></i> Alerts
-                  </p>
-                </div>
-              </div>
-            </div> <!-- Column 3 -->
-
-
-
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 grid-margin stretch-card">
-              <div class="card card-statistics">
-                <div class="card-body">
-                  <div class="clearfix">
-                    <div class="float-left">
-                      <i class="mdi mdi-account-location text-info icon-lg"></i>
-                    </div>
-                    <div class="float-right">
-                      <p class="mb-0 text-right">Total</p>
-                      <div class="fluid-container">
-                        <h3 class="font-weight-medium text-right mb-0">246</h3>
-                      </div>
-                    </div>
-                  </div>
-                  <p class="text-muted mt-3 mb-0">
-                    <i class="mdi mdi-bookmark-outline mr-1" aria-hidden="true"></i> Sub Users
-                  </p>
-                </div>
-              </div>
-            </div> <!-- Column 4 -->
-
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 grid-margin stretch-card">
-              <div class="card card-statistics">
-                <div class="card-body">
-                  <div class="clearfix">
-                    <div class="float-left">
-                      <i class="mdi mdi-account text-dark icon-lg"></i>
-                    </div>
-                    <div class="float-right">
-                      <p class="mb-0 text-right">Total</p>
-                      <div class="fluid-container">
-                        <h3 class="font-weight-medium text-right mb-0">246</h3>
-                      </div>
-                    </div>
-                  </div>
-                  <p class="text-muted mt-3 mb-0">
-                    <i class="mdi mdi-bookmark-outline mr-1" aria-hidden="true"></i> Clients
-                  </p>
-                </div>
-              </div>
-            </div> <!-- Column 5 -->
-
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 grid-margin stretch-card">
-              <div class="card card-statistics">
-                <div class="card-body">
-                  <div class="clearfix">
-                    <div class="float-left">
-                      <i class="mdi mdi-cart text-green icon-lg"></i>
-                    </div>
-                    <div class="float-right">
-                      <p class="mb-0 text-right">Total</p>
-                      <div class="fluid-container">
-                        <h3 class="font-weight-medium text-right mb-0">246</h3>
-                      </div>
-                    </div>
-                  </div>
-                  <p class="text-muted mt-3 mb-0">
-                    <i class="mdi mdi-bookmark-outline mr-1" aria-hidden="true"></i> Merchants
-                  </p>
-                </div>
-              </div>
-            </div> <!-- Column 6 -->
-
-
-          </div> <!-- 4 Boxes end row -->
-
-          <!-- full graph start -->
-          <div class="row">
-            <div class="col-md-12 grid-margin">
-              <div class="card">
-                <div class="card-body">
-                  <div class="row d-none d-sm-flex mb-4">
-                    <div class="col-4">
-                      <h5 class="text-primary">Unique Visitors</h5>
-                      <p>34657</p>
-                    </div>
-                    <div class="col-4">
-                      <h5 class="text-primary">Bounce Rate</h5>
-                      <p>45673</p>
-                    </div>
-                    <div class="col-4">
-                      <h5 class="text-primary">Active session</h5>
-                      <p>45673</p>
-                    </div>
-                  </div>
-                  <div class="chart-container">
-                    <canvas id="dashboard-area-chart" height="80"></canvas>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- full graph end -->
-        
-          <!-- 2 Small graph start -->
-          <div class="row">
-            <div class="col-lg-6 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Left chart</h4>
-                  <canvas id="barChart" style="height:230px"></canvas>
-                </div>
-              </div>
-            </div> <!-- left small graph -->
-            
-            <div class="col-lg-6 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Right chart</h4>
-                  <canvas id="barChart2" style="height:230px"></canvas>
-                </div>
-              </div>
-            </div> <!-- right small graph -->
-
-          </div>
-          <!-- 2 Small graph end -->
-
-
-          <!-- 4 Pie chart Start -->
-          <div class="row">
-            <div class="col-lg-3 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Chart 1</h4>
-                  <canvas id="doughnutChart" style="height:250px"></canvas>
-                </div>
-              </div>
-            </div> <!-- 1 PieChart End -->
-
-            <div class="col-lg-3 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Chart 2</h4>
-                  <canvas id="pieChart" style="height:250px"></canvas>
-                </div>
-              </div>
-            </div> <!-- 2 PieChart End -->
-
-            <div class="col-lg-3 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Chart 3</h4>
-                  <canvas id="doughnutChart1" style="height:250px"></canvas>
-                </div>
-              </div>
-            </div> <!-- 3 PieChart End -->
-
-            <div class="col-lg-3 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Chart 4</h4>
-                  <canvas id="pieChart1" style="height:250px"></canvas>
-                </div>
-              </div>
-            </div> <!-- 4 PieChart End -->
-
-          </div>
-          <!-- 4 Pie chart End -->
         </div>
         <!-- content-wrapper ends -->
-        <!-- partial:partials/_footer.html -->
+        <!-- partial:../../partials/_footer.html -->
         <footer class="footer">
           <div class="container-fluid clearfix">
             <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2018
@@ -668,7 +443,6 @@
     <!-- page-body-wrapper ends -->
   </div>
   <!-- container-scroller -->
-
   <!-- plugins:js -->
   <script src="vendors/js/vendor.bundle.base.js"></script>
   <script src="vendors/js/vendor.bundle.addons.js"></script>
@@ -680,8 +454,6 @@
   <script src="js/misc.js"></script>
   <!-- endinject -->
   <!-- Custom js for this page-->
-  <script src="js/dashboard.js"></script>
-  <script src="js/chart.js"></script>
   <!-- End custom js for this page-->
 </body>
 

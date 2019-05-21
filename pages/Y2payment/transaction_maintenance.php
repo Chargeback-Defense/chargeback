@@ -242,28 +242,28 @@
                   <div class="multi-collapse" id="group-client">
                     <ul class="nav flex-column sub-menu">
                       <li class="nav-item">
-                        <a class="nav-link" href="transaction_maintenance.php">View Transaction</a>
+                        <a class="nav-link" href="Y2payment/transaction_maintenance.php">View Transaction</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="create_maintenance.php">Create Transaction</a>
+                        <a class="nav-link" href="Y2payment/create_maintenance.php">Create Transaction</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="archive_transaction.php">Archive Transaction</a>
+                        <a class="nav-link" href="Y2payment/archive_transaction.php">Archive Transaction</a>
                       </li>
                     </ul>
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="batch_maintenance.php">Batch Management</a>
+                  <a class="nav-link" href="Y2payment/batch_maintenance.php">Batch Management</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="scheduled_payments.php">Scheduled Payments</a>
+                  <a class="nav-link" href="Y2payment/scheduled_payments.php">Scheduled Payments</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="recurring_list.php">Recurring Payments</a>
+                  <a class="nav-link" href="Y2payment/recurring_list.php">Recurring Payments</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="orders_activity.php">Failed Attempt</a>
+                  <a class="nav-link" href="Y2payment/orders_activity.php">Failed Attempt</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" data-toggle="multi-collapse" data-target="multi-collapse" href="#group-client" aria-expanded="true" aria-controls="group-client">
@@ -273,7 +273,7 @@
                   <div class="multi-collapse" id="group-client">
                     <ul class="nav flex-column sub-menu">
                       <li class="nav-item">
-                        <a class="nav-link" href="connect_sage_ftp.php">Import App Docs</a>
+                        <a class="nav-link" href="Y2payment/connect_sage_ftp.php">Import App Docs</a>
                       </li>
                     </ul>
                   </div>
@@ -290,10 +290,10 @@
             <div class="collapse" id="CBDefense">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="alerts_list.php">Alerts</a>
+                  <a class="nav-link" href="CB_Defense/alerts_list.php">Alerts</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="chargebacks_list.php">Chargebacks</a>
+                  <a class="nav-link" href="CB_Defense/chargebacks_list.php">Chargebacks</a>
                 </li>
               </ul>
             </div>
@@ -319,10 +319,10 @@
             <div class="collapse" id="email-template">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="all_template.php">All Template</a>
+                  <a class="nav-link" href="template/all_template.php">All Template</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="add_template.php">Create Template</a>
+                  <a class="nav-link" href="template/add_template.php">Create Template</a>
                 </li>
               </ul>
             </div>
@@ -336,28 +336,28 @@
             <div class="collapse" id="admin-setting">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="general_settings.php">Admin Setting</a>
+                  <a class="nav-link" href="admin_settings/general_settings.php">Admin Setting</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="logs.php">Logs</a>
+                  <a class="nav-link" href="admin_settings/logs.php">Logs</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="tsys.php">TSYS</a>
+                  <a class="nav-link" href="admin_settings/tsys.php">TSYS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="dashboard_settings.php">Dashboard Setting</a>
+                  <a class="nav-link" href="admin_settings/dashboard_settings.php">Dashboard Setting</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="access_preset.php">UAL Presets</a>
+                  <a class="nav-link" href="admin_settings/access_preset.php">UAL Presets</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="tokenization.php">Tokens</a>
+                  <a class="nav-link" href="admin_settings/tokenization.php">Tokens</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="processor.php">Processors</a>
+                  <a class="nav-link" href="admin_settings/processor.php">Processors</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="assign_ftp.php">Assign FTP</a>
+                  <a class="nav-link" href="admin_settings/assign_ftp.php">Assign FTP</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" data-toggle="multi-collapse" data-target="multi-collapse" href="#group-client" aria-expanded="true" aria-controls="group-client">
@@ -367,10 +367,10 @@
                   <div class="multi-collapse" id="group-client">
                     <ul class="nav flex-column sub-menu">
                       <li class="nav-item">
-                        <a class="nav-link" href="group.php">Create Group</a>
+                        <a class="nav-link" href="admin_settings/group.php">Create Group</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="group_clients.php">All Grouped Clients</a>
+                        <a class="nav-link" href="admin_settings/group_clients.php">All Grouped Clients</a>
                       </li>
                     </ul>
                   </div>
@@ -387,13 +387,13 @@
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="reports.php">Transaction Summary</a>
+                  <a class="nav-link" href="reporting/reports.php">Transaction Summary</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="reports_detail.php">Transaction Detail</a>
+                  <a class="nav-link" href="reporting/reports_detail.php">Transaction Detail</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="dispute_ratio.php">Dispute Ratio</a>
+                  <a class="nav-link" href="reporting/dispute_ratio.php">Dispute Ratio</a>
                 </li>
               </ul>
             </div>
@@ -407,13 +407,13 @@
             <div class="collapse" id="web-forms">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="create_web_form.php">Create Web Form</a>
+                  <a class="nav-link" href="web_forms/create_web_form.php">Create Web Form</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="web_form_styling.php">Web Form Styling</a>
+                  <a class="nav-link" href="web_forms/web_form_styling.php">Web Form Styling</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="web_form_list.php">Web Form Token</a>
+                  <a class="nav-link" href="web_forms/web_form_list.php">Web Form Token</a>
                 </li>
               </ul>
             </div>
