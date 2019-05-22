@@ -238,4 +238,4 @@
     <!-- content-wrapper ends -->
 
 <!-- Footer Section -->
-<?php require 'footer.php'; ?>
+<?php //require 'footer.php'; ?>
