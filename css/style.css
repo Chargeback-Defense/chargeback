@@ -13706,7 +13706,7 @@ input:focus {
     .sidebar .nav .nav-item .nav-link {
       align-items: center;
       display: flex;
-      padding: 16px 20px;
+      padding: 16px 35px;
       white-space: nowrap;
       height: 52px;
       color: #4a4a4a; }
@@ -13746,14 +13746,14 @@ input:focus {
         width: 16px;
         line-height: 1;
         font-size: 18px;
-        color: #39a6df; }
+        color: #979797; }
         .rtl .sidebar .nav .nav-item .nav-link .menu-icon {
           margin-right: 0;
           margin-left: 1.25rem; }
       .sidebar .nav .nav-item .nav-link .menu-title {
         color: inherit;
         display: inline-block;
-        font-size: 13px;
+        font-size: 14px;
         line-height: 1;
         vertical-align: middle; }
       .sidebar .nav .nav-item .nav-link .badge {
@@ -13796,7 +13796,7 @@ input:focus {
       color: #4a4a4a; }
     .sidebar .nav.sub-menu {
       margin-bottom: 0;
-      padding: 0 0 0 2rem; }
+      padding: 0 0 0 3rem; }
       .sidebar .nav.sub-menu .nav-item .nav-link {
         color: #4a4a4a;
         padding: 0.75rem 1rem;
