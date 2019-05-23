@@ -1,4 +1,4 @@
-<!-- partial:../../partials/_footer.html -->
+<!-- partial:partials/_footer.html -->
         <footer class="footer">
           <div class="container-fluid clearfix">
             <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2018
@@ -14,6 +14,7 @@
     <!-- page-body-wrapper ends -->
   </div>
   <!-- container-scroller -->
+
   <!-- plugins:js -->
   <script src="vendors/js/vendor.bundle.base.js"></script>
   <script src="vendors/js/vendor.bundle.addons.js"></script>
@@ -25,7 +26,15 @@
   <script src="js/misc.js"></script>
   <!-- endinject -->
   <!-- Custom js for this page-->
+  <script src="js/dashboard.js"></script>
+  <script src="js/chart.js"></script>
   <!-- End custom js for this page-->
+  <script>
+    $(document).ready(function () {
+      $('#ResearchPreviousTransaction').DataTable();
+      $('.dataTables_length').addClass('bs-select');
+    });
+  </script>   
 </body>
 
 </html>

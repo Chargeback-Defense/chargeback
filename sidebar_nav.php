@@ -1,5 +1,3 @@
-<!-- partial:../../partials/_sidebar.html -->
-
 <nav class="sidebar sidebar-offcanvas" id="sidebar">
   <ul class="nav">
     <li class="nav-item">
@@ -219,5 +217,4 @@
     </li>
   </ul>
 </nav>
-
 <!-- partial -->
